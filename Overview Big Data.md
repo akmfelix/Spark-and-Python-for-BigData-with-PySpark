@@ -1,6 +1,5 @@
 
-Classic Database - using SQL database to move storage onto hard drive instead of RAM.
-or use a distributed system, that distributes the data to multiple machines/computer.
+Classic Database - using SQL database to move storage onto hard drive instead of RAM. or use a distributed system, that distributes the data to multiple machines/computer. 
 
 Big Data
 * A local process will use the computation resources of a single machine; 
@@ -16,10 +15,11 @@ Hadoop
 * HDFS allows a user to work with large tat sets;
 * HDFS also duplicates blocks of data for fault tolerance;
 * uses MapReduce;
-* MapReduce allows computations on distributed data. to distribute a computational task to a distributed data set; 
+* MapReduce allows computations on distributed data. MapReduce is used to distribute a computational task to a distributed data set; 
 
-Distributed Storage
-Name node (master node):
+Distributed STORAGE
+Master where data and calculations distributed onto other computers.
+Name node (master node) controls the process od distr storage, calculations to the other nodes- slave nodes:
 1. Data node
 2. Data node
 3. Data mode
