@@ -7,7 +7,13 @@
 * Overview of Spark
 
 ## What is Bid Data
-Big Data is a combination of structered, semistructered and unstructered data collected by organizations that can be mined for information and used in machine learning projects, predictive modeling and other advanced analytics applications.
+Big Data is a combination of structered, semistructered and unstructered data collected by organizations that can be mined for information and used in machine learning projects, predictive modeling and other advanced analytics applications.   
+Big Data is often described by these 5 characteristics:
+* Volume: the size and amounts of Big Data that companies manage and analyze
+* Value: the most important "V" from the perspective of the business, the value of big data usually comes from insight discovery and pattern recognition that lead to more effective operations, stronger customer relationships
+* Variety: the diversity and range of different data types
+* Velocity: the speed at which companies receive, store and manage data
+* Veracity: the truth or accuracy of data and information assets
 
 
 
