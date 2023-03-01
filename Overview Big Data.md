@@ -1,5 +1,17 @@
 
-Classic Database - using SQL database to move storage onto hard drive instead of RAM. or use a distributed system, that distributes the data to multiple machines/computer. 
+# Big Data overview
+* What is Big Data?
+* Explanation of Hadoop, MapReduce, and Spark
+* Local versus Distributed Systems
+* Overview of Hadoop Ecosystems
+* Overview of Spark
+
+## What is Bid Data
+Big Data is a combination of structered, semistructered and unstructered data collected by organizations that can be mined for information and used in machine learning projects, predictive modeling and other advanced analytics applications.
+
+
+
+* Big Data is a collection of data that is huge in volume, yet growing exponentially with time. It is a data with so large size and complexity that none of traditional data management tools can store it or process it efficiently. Big data is also a data but with huge size.
 
 Big Data
 * A local process will use the computation resources of a single machine; 
