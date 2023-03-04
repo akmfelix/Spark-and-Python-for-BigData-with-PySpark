@@ -15,7 +15,7 @@ Big Data is often described by these 5 characteristics:
 * Velocity: the speed at which companies receive, store and manage data
 * Veracity: the truth or accuracy of data and information assets
 
-### What can we if we have a larger set of data?
+### What can we do if we have a larger set of data?
 * Try using SQL database to move storage onto hard drive instead of RAM
 * or use a distributed system, that distributes the data to multiple machines/computer. And this where Spark coming to play.
 
