@@ -38,7 +38,7 @@ Big Data is often described by these 5 characteristics:
 * HDFS allows a user to work with large data sets across a distributed system
 * HDFS also duplicates blocks of data for fault tolerance, which is the idea if one machine goes down in your system, your data is duplicated on some other machine.
 * it also uses what's known as MapReduce, and MapReduce allows computations on that distributed data
-* MapReduce allows computations on distributed data. MapReduce is used to distribute a computational task to a distributed data set; 
+* MapReduce is used to distribute a computational task to a distributed data set; 
 ### Distributed Storage - HDFS
 * Name node (Master Node) - has its own CPU, RAM - controls the process of either distributing to storage or to calculations through slave nodes (Data Node)
 * HDFS will use blocks of data, with a size of 128MB by default
