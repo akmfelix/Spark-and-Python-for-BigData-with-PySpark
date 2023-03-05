@@ -60,7 +60,25 @@ Big Data is often described by these 5 characteristics:
 * Spark is one the latest technologies used to quickly and easy handle Big Data
 * It is an open source project on Apache
 * You can think of Spark as a flexible alternative to MapReduce
-###
+* Spark can use data stored in a variety formats (Cassandra, AWS S3, HDFS and more)
+### Spark vs MapReduce
+* MapReduce requires files to be strored in HDFS, Spark does not
+* Spark also can perform operations up to 100x faster than MapReduce
+#### So how does Spark achieve this speed
+* MapReduce writes most data to disk after each map and reduce operation
+* Spark keeps most of the data in memory after each map and reduce operation
+* Spark can spill over to disk if the memory is filled
+### Spark RDD
+* At the core of Spark is the idea of a Resilient Distributed Dataset (RDD)
+* RDD has 4 main features: 1) Distributed collection of Data 2) Fault tolerance 3) Parallel operation - partitioned 4) Ability to use many data sources
+* RDDs are immutable, lazily evaluated, and cacheable
+* There are two types of Spark Operations: Tranformations and Actions
+* Transformations are basically a recipe to follow
+* Actions actually perform what the recipe says to do and returns something back
+* The Sparks syntax, that is what you're actually going to be coding the syntax of the code. You type into a keyboard, you will often see syntax versus dataframe syntax show up. Now, if the release of Spark 2.0 Spark is moving towards what's known as a dataframe based syntax. So if you worked with something like pandas or are or maybe even like an Excel spreadsheet, those are more like DataFrame. You have columns and rows. But keep in mind that the way the files are being distributed physically can still be thought of as an RDD, the resilient distributed data set.Your data is still being stored in a resilient, distributed manner, so RTDs is still the way it's happening physically. Just the syntax of what you're working with is now called data frames.
+
+# spark.apache.org
+
 
 
 
