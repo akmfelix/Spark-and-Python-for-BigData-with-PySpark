@@ -51,44 +51,18 @@ Big Data is often described by these 5 characteristics:
 * The Job Tracker sends code to run on the Task Trackers
 * The Task trackers allocate CPU and memory for the tasks and monitor the tasks on the worker nodes
 
-
-
-
-
-
-
-Distributed STORAGE
-Master where data and calculations distributed onto other computers.
-Name node (master node) controls the process od distr storage, calculations to the other nodes- slave nodes:
-1. Data node
-2. Data node
-3. Data mode
-
-Spark
-* Spark is one of the latest technologies being used to quickly and easily handle Big Data
-
-Distributed Storage - HDFS
-* HDFS will use blocks of data, with a size of 128MB by default
-* Each of these blocks is replicated 3 times
-* The blocks are distributed in a way to support fault tolerance
-* Smaller blocks provide more parallelization during processing
-* Multiple copies of a block prevent loss of data due to a failure of a node
-
-Map Reduce
-* MapReduce is a way of splitting a computation task to a distributed set of files (HDFS)
-* It consists of a Job Tracker and miltiple Task Trackers
-* Job Trackers sends code to run on the Task Trackers
-* The Task Trackers allocate CPU and memory for the tasks and monitor the tasks on the worker nodes. 
-
-SPARK:
+## Spark 
+* What is Spark
+* Spark vs MapReduce
+* Spark RDD
+* Spark DataFrames
+### What is Spark
+* Spark is one the latest technologies used to quickly and easy handle Big Data
+* It is an open source project on Apache
 * You can think of Spark as a flexible alternative to MapReduce
-* Spark can use data stored in a variety of formats: Cassandra, AWS S3, HDFS and more
+###
 
- Spark vs MapReduce
- * MapReduce requires files to be stored in HDFS, Spark does not
- * Spark also can perform operations up to 100x faster than MapReduce
- * MapReduce writes most data to disk after each map and reduce operation
- * Spark keeps most of the data in memory after each transformation
- * Spark can spill over to disk if the memory is filled
+
+
 
 
